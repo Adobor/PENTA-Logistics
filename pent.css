@@ -1,0 +1,247 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+nav {
+    height: 25px;
+    margin-top: 13px;
+    display: inline-flex;
+    gap: 190px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+
+header {
+    width: 70%;
+    margin: auto;
+    padding-top: 5px;
+}
+
+header a {
+    float: right;
+    padding-top: 5px;
+    clear: both;
+}
+
+.formfirstdiv h3 {
+    margin-bottom: 9px;
+    margin-top: 10px;
+}
+
+#user-commet {
+    float: left;
+    clear: both;
+    margin-bottom: 9px;
+    margin-top: 9px;
+}
+
+.whitespace {
+    background-color: rgb(219, 214, 214);
+    height: 10px;
+    margin: auto;
+    justify-self: center;
+    width: 86%;
+    position: relative;
+    padding: 5px;
+}
+
+.whitespace label {
+    float: right;
+    position: relative;
+    top: -4px;
+    clear: both;
+    width: 80px;
+    background-color: rgb(163, 157, 157);
+
+}
+
+body {
+    width: 90%;
+    background-color: rgb(167, 170, 170);
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+h2 {
+    /* text-align: center; */
+    font-size: bold;
+}
+
+a {
+    text-decoration: none;
+    color: chartreuse;
+}
+
+form {
+    width: 85.7%;
+    background-color: darkkhaki;
+    margin: auto;
+}
+
+.tabdiv {
+    text-transform: uppercase;
+}
+
+.tabtd input {
+    padding: 4px;
+    width: 167px;
+    margin-bottom: 9px;
+
+}
+
+.formdiv {
+    background-color: rgb(226, 220, 220);
+    width: 87%;
+    margin: auto;
+}
+
+.purposid {
+    border-style: double;
+    padding-top: 2px;
+    height: 25px;
+    border: 2px double rgb(229, 130, 130);
+    color: rgb(19, 16, 16);
+    width: 345px;
+    background-color: white;
+    /* box-shadow: 1px 1px 1px 3px rgb(53, 50, 50); */
+}
+
+.purposid p {
+    height: 25px;
+    display: inline-flex;
+    justify-content: space-between;
+    font-weight: bold;
+    column-gap: 48px;
+
+}
+
+.purposid label {
+    display: inline-flex;
+    justify-content: space-between;
+    /* gap: 30px; */
+    position: relative;
+    left: 43px;
+    top: 4px;
+}
+
+.informgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.hm .cool {
+    /* background-color: brown; */
+    width: 352px;
+    height: 300px;
+    margin: 2px;
+
+}
+
+.cool {
+    text-align: left;
+    /* background-color: royalblue; */
+}
+
+.cool2 input {
+    /* background-color: aquamarine; */
+    display: inline;
+
+    padding-top: 2px;
+    height: 30px;
+    margin: 2px;
+    width: 367px;
+    font-weight: bold;
+
+}
+
+.cool2 label {
+    display: inline;
+    position: relative;
+    top: 2px;
+    width: 357px;
+    padding: 5px;
+    margin: 50px;
+
+}
+
+.middleinput input {
+    width: 216px;
+    gap: 6px;
+    padding-top: 2px;
+    height: 30px;
+    margin-top: 36px;
+    font-weight: bold;
+}
+
+.middleinput label {
+
+    position: relative;
+    top: 17px;
+    gap: 9px;
+
+}
+
+.thirdinput input {
+    width: 310px;
+    gap: 6px;
+
+    height: 35px;
+    font-weight: bold;
+    padding-top: 2px;
+    margin-top: 17px;
+}
+
+.thirdinput label {
+
+    position: relative;
+    top: 19px;
+    gap: 9px;
+
+}
+
+.thirdinput button {
+    width: 140px;
+    gap: 6px;
+    display: block;
+    height: 37px;
+    font-weight: bold;
+    padding: 4px;
+    margin: auto;
+    position: relative;
+    top: 40px;
+}
+
+
+
+
+.midcl input {
+    width: 316px;
+    height: 30px;
+    font-weight: bold;
+}
+
+.midcl select {
+    width: 316px;
+    height: 37px;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.midcl2 label {
+
+    position: relative;
+    top: 17px;
+    gap: 9px;
+
+}
+
+.thirdinput {
+    border: 3px double rgb(146, 95, 95);
+    height: 231px;
+}
